@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Bootstrap</title>
+		<link rel="stylesheet" href="./style.css" />
+		<!-- Font Awesome Link  -->
+		<link
+			rel="stylesheet"
+			href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+			integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+			crossorigin="anonymous"
+			referrerpolicy="no-referrer"
+		/>
+
+		<!-- Bootstrap CDN Link  -->
+		<link
+			rel="stylesheet"
+			href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+			integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+			crossorigin="anonymous"
+		/>
+	</head>
+	<body>
+		<!-- Navigation Bar Start  -->
+		<nav class="navbar navbar-expand-lg bg-body-tertiary">
+			<div class="container-fluid">
+				<a class="navbar-brand" href="#"
+					><i class="fa-solid fa-folder-open"></i
+				></a>
+
+				<button
+				oncli
+					class="navbar-toggler"
+					type="button"
+					data-bs-toggle="collapse"
+					data-bs-target="#navbarNav"
+					aria-controls="navbarNav"
+					aria-expanded="false"
+					aria-label="Toggle navigation"
+				>
+					<span class="navbar-toggler-icon"></span>
+				</button>
+
+				<form class="d-flex" role="search">
+					<input
+						class="form-control me-2"
+						type="search"
+						placeholder="Search"
+						aria-label="Search"
+					/>
+					<button class="btn btn-outline-success" type="submit">Search</button>
+				</form>
+
+				<div class="collapse navbar-collapse align-nav-right" id="navbarNav">
+					<ul class="navbar-nav">
+						<li class="nav-item">
+							<a class="nav-link active" aria-current="page" href="#">Home</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="#">Features</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="#">Pricing</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link">Contact Us</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link">Sign Up</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</nav>
+		<!-- Navigation Bar End  -->
+
+		<!-- Slider with text Begin -->
+		<div id="carouselExampleCaptions" class="carousel slide">
+			<div class="carousel-indicators">
+				<button
+					type="button"
+					data-bs-target="#carouselExampleCaptions"
+					data-bs-slide-to="0"
+					class="active"
+					aria-current="true"
+					aria-label="Slide 1"
+				></button>
+				<button
+					type="button"
+					data-bs-target="#carouselExampleCaptions"
+					data-bs-slide-to="1"
+					aria-label="Slide 2"
+				></button>
+				<button
+					type="button"
+					data-bs-target="#carouselExampleCaptions"
+					data-bs-slide-to="2"
+					aria-label="Slide 3"
+				></button>
+
+				<button
+					type="button"
+					data-bs-target="#carouselExampleCaptions"
+					data-bs-slide-to="3"
+					aria-label="Slide 4"
+				></button>
+
+				<button
+					type="button"
+					data-bs-target="#carouselExampleCaptions"
+					data-bs-slide-to="4"
+					aria-label="Slide 5"
+				></button>
+
+				<button
+					type="button"
+					data-bs-target="#carouselExampleCaptions"
+					data-bs-slide-to="5"
+					aria-label="Slide 6"
+				></button>
+
+				<button
+					type="button"
+					data-bs-target="#carouselExampleCaptions"
+					data-bs-slide-to="6"
+					aria-label="Slide 7"
+				></button>
+
+				<button
+					type="button"
+					data-bs-target="#carouselExampleCaptions"
+					data-bs-slide-to="7"
+					aria-label="Slide 8"
+				></button>
+			</div>
+
+			<div class="carousel-inner">
+				<div class="carousel-item active">
+					<img
+						src="./Images1/17-2.jpg"
+						class="d-block w-100"
+						alt="..."
+					/>
+					<div class="carousel-caption d-none d-md-block">
+						<h1>Fly Where You Want</h1>
+						<p>Remember that happiness is a way of travel – not a destination.</p>
+					</div>
+				</div>
+
+				<div class="carousel-item">
+					<img
+						src="./Images1/24-2.jpg"
+						class="d-block w-100"
+						alt="..."
+					/>
+					<div class="carousel-caption d-none d-md-block">
+						<h1>Enjoy The Nature</h1> 
+						<p>In all things of nature, there is something of the marvellous.</p>
+						<!--<p>Colors are the smiles of nature.</p> -->
+					</div>
+				</div>
+
+				<div class="carousel-item">
+					<img
+						src="./Images1/30-2.jpg"
+						class="d-block w-100"
+						alt="..."
+					/>
+					<div class="carousel-caption d-none d-md-block">
+						<h1>Breathe Deep</h1>
+						<p>Nature is pleased with simplicity. Its beauty is a gift that cultivates appreciation and gratitude. 
+
+						</p>
+					</div>
+				</div>
+
+				<div class="carousel-item">
+					<img
+						src="./Images1/35-2.jpg"
+						class="d-block w-100"
+						alt="..."
+					/>
+					<div class="carousel-caption d-none d-md-block">
+						<h1>Road Trip</h1>
+						<p>And just like that, We're on our way to everywhere.</p>
+					</div>
+				</div>
+
+				<div class="carousel-item">
+					<img
+						src="./Images1/37-2.jpg"
+						class="d-block w-100"
+						alt="..."
+					/>
+					<div class="carousel-caption d-none d-md-block">
+						<h1>Heaven On Earth.</h1>
+						<p>Get down low. Explore the heights. Change your perspective - It’s a big world out there!
+							</p>
+					</div>
+				</div>
+
+				<div class="carousel-item">
+					<img
+						src="./Images1/5-2.jpg"
+						class="d-block w-100"
+						alt="..."
+					/>
+					<div class="carousel-caption d-none d-md-block">
+						<h1>Sunset!</h1>
+						<p>Shinin' in the settin' sun like a pearl up on the ocean - Feel me.</p>
+					</div>
+				</div>
+
+				<div class="carousel-item">
+					<img
+						src="./Images1/1-2.jpg"
+						class="d-block w-100"
+						alt="..."
+					/>
+					<div class="carousel-caption d-none d-md-block">
+						<h1>Just Traveling</h1>
+						<p>I don’t know where I’m going, but I’m on my way.</p>
+					</div>
+				</div>
+
+				<div class="carousel-item">
+					<img
+						src="./Images1/15-2.jpg"
+						class="d-block w-100"
+						alt="..."
+					/>
+					<div class="carousel-caption d-none d-md-block">
+						<h1>Simply Unforgettable</h1>
+						<p>Yesterday is but today's memory, and tomorrow is today's dream.</p>
+					</div>
+				</div>
+			</div>
+			<button
+				class="carousel-control-prev"
+				type="button"
+				data-bs-target="#carouselExampleCaptions"
+				data-bs-slide="prev"
+			>
+				<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+				<span class="visually-hidden">Previous</span>
+			</button>
+			<button
+				class="carousel-control-next"
+				type="button"
+				data-bs-target="#carouselExampleCaptions"
+				data-bs-slide="next"
+			>
+				<span class="carousel-control-next-icon" aria-hidden="true"></span>
+				<span class="visually-hidden">Next</span>
+			</button>
+		</div>
+
+		<!-- Slider with text End -->
+
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+	</body>
+</html>
